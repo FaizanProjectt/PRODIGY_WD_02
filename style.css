@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #fff7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  /* position: fixed; */
+  width: 800px;
+  height: 700px;
+  margin-top: -230px;
+  /* top: 80px;
+  left: 150px; */
+}
+
+.head {
+  margin-top: -550px;
+  margin-left: 290px;
+  color: darkcyan;
+}
+
+#time {
+  margin-top: 80px;
+  margin-left: 320px;
+  color: red;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 280px;
+  margin-top: 60px;
+}
+
+#start {
+  font-size: 20px;
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bolder;
+}
+
+#stop {
+  font-size: 20px;
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bolder;
+}
+
+#reset {
+  font-size: 20px;
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bolder;
+}
+
+#lap {
+  font-size: 20px;
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bolder;
+}
+
+#laps {
+  margin-left: 370px;
+  margin-top: 40px;
+  font-size: 20px;
+}
